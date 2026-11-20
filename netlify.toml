@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/confirmar"
+  to = "/.netlify/functions/confirmar"
+  status = 200
+
+[[redirects]]
+  from = "/api/invitados"
+  to = "/.netlify/functions/invitados"
+  status = 200
