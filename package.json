@@ -1,0 +1,7 @@
+{
+  "name": "episi-cena-2026-netlify",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "dependencies": { "@netlify/blobs": "10.7.13" }
+}
